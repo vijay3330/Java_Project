@@ -1,6 +1,6 @@
 package com.inheritanceDemo;
 
-class Electricity
+class Electronic
 {
 	public void showElectricity()
 	{
@@ -8,7 +8,7 @@ class Electricity
 	}
 }
 
-class TV extends Electricity
+class TV extends Electronic
 {
 	public void showTV()
 	{
@@ -16,7 +16,7 @@ class TV extends Electricity
 	}
 }
 
-class Battery extends Electricity
+class Battery extends Electronic
 {
 	public void showBattery()
 	{

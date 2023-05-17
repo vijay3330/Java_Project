@@ -2,7 +2,7 @@ package com.polymorphism;
 
 class Animal
 {
-	 void eat()
+	 public void eat()
 	{
 		System.out.println("Animals Are eating....");
 	}
@@ -14,7 +14,7 @@ class Dog extends Animal
 	{
 		super.eat();
 		System.out.println("Dog is eating dog food..");
-		super.eat();
+		//super.eat();
 	}
 }
 

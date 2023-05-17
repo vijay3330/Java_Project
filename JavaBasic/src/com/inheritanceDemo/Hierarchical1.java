@@ -1,15 +1,15 @@
 package com.inheritanceDemo;
 
-class Ocean
+class WaterAnimal
 {
 	String sea;
 	public void showOcean()
 	{
-		System.out.println("ocean has so many aquatics");
+		System.out.println("WaterAnimals Presnt in Ocean");
 	}
 }
 
-class Fish extends Ocean
+class Fish extends WaterAnimal
 {
 	public void showFish()
 	{
@@ -18,7 +18,7 @@ class Fish extends Ocean
 	}
 }
 
-class Turtle extends Ocean
+class Turtle extends WaterAnimal
 {
 	public void showTurtle()
 	{
