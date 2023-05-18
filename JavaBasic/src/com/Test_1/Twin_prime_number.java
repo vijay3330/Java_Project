@@ -47,8 +47,8 @@ public class Twin_prime_number {
 				System.out.println("Number is not prime number");
 			}
 			sum = sum + (num1 - num2);
-			System.out.println("Difference of two number is: " + sum);
-			if (sum == 2) {
+		//	System.out.println("Difference of two number is: " + sum);
+			if (sum == 2 || sum==(-2)) {
 				System.out.println("Both number are prime number and twin number");
 			} else {
 				System.out.println("Both number are prime number but not twin number");
