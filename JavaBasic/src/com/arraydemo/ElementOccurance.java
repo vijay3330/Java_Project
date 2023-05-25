@@ -11,7 +11,7 @@ public class ElementOccurance
 					boolean isvisited=false;
 					int count=1;
 					
-					for(int j=i-1; j > 0; j--)
+					for(int j=i-1; j >= 0; j--)
 					{
 						if(a[i]==a[j])
 						{
