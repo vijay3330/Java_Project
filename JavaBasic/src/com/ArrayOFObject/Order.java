@@ -40,7 +40,7 @@ public class Order
 
 	@Override
 	public String toString() {
-		return "Order [id=" + id + ", qty=" + qty + ", menu=" + Arrays.toString(menu) + "]";
+		return "id=" + id + ", qty=" + qty + ", menu=" + Arrays.toString(menu);
 	}
 	
 	public static void main(String[] args) 
