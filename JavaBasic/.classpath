@@ -6,6 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="Junit jar file/junit5-api-5.0.0-ALPHA.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -11,15 +11,16 @@ public class Second_smallest_element
 				int b[]=new int[a.length];
 				for(int i=0; i<a.length; i++)
 				{
-					if(min<a[i])
+					if(min>a[i])
 					{
 						min=a[i];
-						b[i]=min;
+						
 					}
+					b[i]=min;
 				}
-				System.out.println(Arrays.toString(a));
-				System.out.println(Arrays.toString(b));
-				System.out.println(min);
+				
+				
+				System.out.println("Second Smallest Number: "+b[1]);
 				
 			}
 	
@@ -31,13 +32,10 @@ public class Second_smallest_element
 				int size=sc.nextInt();
 				int[] a=new int[size];
 				System.out.println("Enter the elements");
-				System.out.println(a.length);
 				for(int i=0; i< a.length ; i++)
 				{
 					a[i]=sc.nextInt();
 				}
-				System.out.println("Hiii");
-				System.out.println(Arrays.toString(a));
 				smallest(a);
 								
 			}

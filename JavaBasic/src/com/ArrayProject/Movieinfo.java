@@ -35,8 +35,7 @@ public class Movieinfo
 				mymovie.findMoviebyid(1);
 				
 				System.out.println(".........Update Movie price...........");
-				mymovie.updateMovie(1);
-				
+				mymovie.updateMovie(1);	
 				mymovie.showAllMovies();
 				
 				System.out.println("..............Delete Movie..................");

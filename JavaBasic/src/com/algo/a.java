@@ -1,29 +1,28 @@
 package com.algo;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class a {
 
 	public static void main(String[] args) 
 	{
-			Scanner sc=new Scanner(System.in);
-			//int num=sc.nextInt();
-//		for(int i=1;i<=num;i=(i*2)+1)
-//		{
-//			
-//			System.out.println(i);
-//		}		
-				int num=1;
-				int input=10;
-			for(int i=1; i<=100;i++)
-			{
-				
-				num=(num+i) - 1;
-				
-				if(input==i)
-					System.out.println(num);
-			}
 		
+			String s= "india is my country india is best country";
+			
+			String a[]=s.split(" ");
+			System.out.println(Arrays.toString(a));
+			
+			for(int i=0;i<a.length;i++)
+			{
+				for(int j=i+1;j<a.length;j++)
+				{
+					if(a[i]==a[j])
+					{
+						System.out.println(a[j]);
+					}
+				}
+			}
 		
 		
 	
