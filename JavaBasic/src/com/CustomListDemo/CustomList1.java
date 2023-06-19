@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-class Student
+class Student implements Comparable<Student>
 {
 	int id;
 	String name;
@@ -21,6 +21,30 @@ class Student
 	public String toString()
 	{
 		return "[id="+ id +", name="+ name +", marks="+ marks +"]";
+	}
+
+	@Override
+	public int compareTo(Student s) 
+	{
+//		if(this.id > s.id)
+//		{
+//			return -1;	
+//		}
+//		else if(this.id < s.id)
+//		{
+//			return 1;
+//		}
+//		else
+//		{
+//			return 0;
+//		}
+		
+//		return this.id-s.id;	// use to sort in descending
+//		return s.id-this.id;	// use to sort in ascending
+		return this.name.compareTo(s.name);  // use to sort by name in ascending
+		
+		
+		
 	}
 }
 

@@ -27,7 +27,7 @@ public class CollectionDemo1
 				al.add("goa");
 				al.add("nasik"); 
 				al.add(null);	// we can store null values
-				
+			
 				System.out.println(al);
 				
 				System.out.println("*********** For traditional **********");

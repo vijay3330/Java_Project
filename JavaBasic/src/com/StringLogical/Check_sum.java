@@ -11,8 +11,6 @@ public class Check_sum
 				{
 					 digit = num%1000;
 					 
-					 
-					 
 					num=num/1000;
 					
 					

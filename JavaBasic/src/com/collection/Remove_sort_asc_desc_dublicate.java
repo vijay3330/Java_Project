@@ -23,15 +23,15 @@ public class Remove_sort_asc_desc_dublicate
 	//	System.out.println(al);
 		System.out.println(al2);
 		
-	//	al.retainAll(al2);
-		
-		al2.addAll(al);
-		
-		System.out.println(al2);
-		
-		al2.retainAll(al);
-		
-		System.out.println(al2);
+		al.retainAll(al2);
+		System.out.println(al);
+//		al2.addAll(al);
+//		
+//		System.out.println(al2);
+//		
+//		al2.retainAll(al);
+//		
+//		System.out.println(al2);
 		
 		
 		
