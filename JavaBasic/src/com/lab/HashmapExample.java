@@ -42,7 +42,7 @@ public class HashmapExample
 				 while(itr.hasNext())
 				 {
 					 Student s1=itr.next();
-					 if(itr.next().per<90 && itr.next().per>=35)
+					 if(s1.per<=100 && s1.per>=35)
 					 {
 						 s="Pass";
 						 hs.put(s1.name, s);
@@ -55,7 +55,7 @@ public class HashmapExample
 					 
 				 }
 					 
-				
+				System.out.println(hs);
 				
 				
 				
