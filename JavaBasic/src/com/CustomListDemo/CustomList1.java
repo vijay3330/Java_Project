@@ -94,7 +94,7 @@ public class CustomList1
 //				}
 //			}
 			
-			Iterator itr=al.iterator();
+			Iterator<Student> itr=al.iterator();
 			while(itr.hasNext())
 			{
 				Student s= (Student) itr.next();

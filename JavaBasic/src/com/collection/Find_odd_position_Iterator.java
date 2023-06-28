@@ -1,6 +1,7 @@
 package com.collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class Find_odd_position_Iterator 
@@ -37,6 +38,10 @@ public class Find_odd_position_Iterator
 			
 			Find_odd_position_Iterator f=new Find_odd_position_Iterator();
 			f.oddPositionElement(al);
+			
+			char a[] = {1,2,'z',4};
+			System.out.println(Arrays.toString(a));
+			
 		}
 	
 		
