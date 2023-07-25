@@ -29,9 +29,9 @@ public class Fail_Fast_Safe
 				
 				if(s.equalsIgnoreCase("Goa"))
 				{
-				//	al.remove(s);	// Fail -Fast because arraylist is synchronous (we can't perform multiple operations at same time )
+					// al.remove(s);	// Fail -Fast because arraylist is synchronous (we can't perform multiple operations at same time )
 					
-					itr.remove(); // Fail - safe because iterator is asynchronous (we can perform multiple operations at same time)
+					//itr.remove(); // Fail - safe because iterator is asynchronous (we can perform multiple operations at same time)
 				}
 			}
 			

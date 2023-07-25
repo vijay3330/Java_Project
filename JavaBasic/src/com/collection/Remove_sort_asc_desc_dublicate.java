@@ -23,7 +23,7 @@ public class Remove_sort_asc_desc_dublicate
 	//	System.out.println(al);
 		System.out.println(al2);
 		
-		al.retainAll(al2);
+		al.retainAll(al2); // commn keep as it is not comman remove
 		System.out.println(al);
 //		al2.addAll(al);
 //		
